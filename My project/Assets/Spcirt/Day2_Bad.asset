@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad80966998177743b4f15c458de8b59, type: 3}
+  m_Name: Day2_Bad
+  m_EditorClassIdentifier: 
+  textContent: "<link=mask>March 10</link> <link=mask>17:00</link>  \r\n<link=mask>Dr.
+    Kethy</link>\r\n\r\n<link=mask>Type-5 compound</link> have <link=fixmask>successfully
+    arrived</link>. The first batch of <link=mask>twelve</link> <link=mask>\u201CHummingbird\u201D</link>
+    unmanned units has been <link=fixmask>completed</link> and <link=fixmask>passed</link> 
+    <link=fixmask>quality inspection</link>.\r\n\r\nAt <link=mask>12:00</link> today,
+    an <link=mask>explosive test</link> conducted in the <link=fuzzy_1>urban area</link>
+    on <link=mask>Peters Avenue</link> achieved significant results.  \r\nThe <link=fixmask>target</link>,
+    <link=mask>Starlight Tower</link>, was destroyed. Casualties remain unknown.\r\n\r\n<link=fixmask>Experimental
+    personnel</link> rapidly recovered the remains following the collapse and concealed
+    all traces.  \r\nThe <link=fuzzy_2>government</link> is currently investigating
+    the cause of the incident. It is advised to contact <link=fuzzy_3>Councilman
+    Rice</link> in advance to mitigate the impact."
+  expectedMaskCount: 10
+  fuzzyEntries:
+  - linkID: fuzzy_1
+    options:
+    - public space
+    - urban area
+    - private space
+  - linkID: fuzzy_2
+    options:
+    - official forces
+    - government
+    - private forces
+  - linkID: fuzzy_3
+    options:
+    - public figure
+    - Councilman Rice
+    - underground figure

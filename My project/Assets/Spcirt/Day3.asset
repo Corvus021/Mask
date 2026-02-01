@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad80966998177743b4f15c458de8b59, type: 3}
+  m_Name: Day3
+  m_EditorClassIdentifier: 
+  textContent: '<link=mask>March</link> <link=mask>12,</link> <link=mask>09:00</link>
+
+    Dr.<link=mask>Ran</link>
+
+
+    An
+    <link=fixmask>information</link> <link=fixmask>leak</link> has occurred. The
+    special unit of <link=fuzzy_1>C.H.F.</link> has sealed the <link=mask>Groy estate</link>
+    under the pretext of <link=fuzzy_2>apprehending criminals</link>, preventing
+    the <link=fixmask>planned</link> <link=fixmask>test</link> from proceeding.
+
+
+    Due
+    to <link=fixmask>missing</link> <link=fixmask>experimental</link> <link=fixmask>parameters</link>,
+    <link=fixmask>potential</link> <link=fixmask>clients</link> <link=mask>Blue Sky
+    Technologies</link> and <link=mask>Fekmar Industries</link> have declined <link=fixmask>further</link>
+    <link=fixmask>funding</link> for the <link=mask>Hummingbird</link> <link=fixmask>project</link>.
+    However, the <link=fuzzy_3>DeepWell organization</link> has agreed to grant another
+    <link=fixmask>opportunity</link>.
+
+
+    The <link=fixmask>head</link> of <link=fuzzy_3>DeepWell</link>
+    will meet our <link=fixmask>team</link> at the <link=fixmask>upcoming</link>
+    <link=fuzzy_4>Tengfei Technology Expo</link> this <link=fixmask>Sunday</link>.
+    <link=fixmask>Do</link> not <link=fixmask>fail</link> again.'
+  expectedMaskCount: 8
+  fuzzyEntries:
+  - linkID: fuzzy_1
+    options:
+    - armed organization
+    - C.H.F.
+    - peace organization
+  - linkID: fuzzy_2
+    options:
+    - law enforcement operation
+    - apprehending criminals
+    - routine operation
+  - linkID: fuzzy_3
+    options:
+    - public organization
+    - DeepWell organization
+    - private organization
+  - linkID: fuzzy_4
+    options:
+    - public event
+    - Tengfei Technology Expo
+    - private event

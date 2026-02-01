@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad80966998177743b4f15c458de8b59, type: 3}
+  m_Name: Day1
+  m_EditorClassIdentifier: 
+  textContent: "<link=mask>March</link> <link=mask>4,</link> <link=mask>09:10</link>\nDr.<link=mask>Kethy</link>\n\nOur
+    <link=fixmask>Research</link> <link=fixmask>Division</link> <link=fuzzy_1>finalizes</link>
+    the <link=fixmask>design</link> <link=fixmask>review</link> for the <link=mask>\"Hummingbird\"</link>
+    <link=mask>drone</link>. Each <link=fixmask>unit</link> <link=fixmask>carries</link>
+    a <link=fixmask>compact</link> <link=fixmask>payload</link> <link=fixmask>utilizing</link>
+    a <link=fuzzy_2>Type-5 compound</link> , <link=fixmask>engineered</link> to <link=fixmask>produce</link>
+    <link=mask>precision detonation</link> <link=fixmask>effects</link> while <link=fixmask>maintaining</link>
+    <link=fixmask>minimal</link> <link=fixmask>observable</link> <link=fixmask>signatures</link>.\n\nAccording
+    to <link=fixmask>procurement</link> <link=fixmask>records</link>, <link=fixmask>key</link>
+    <link=fixmask>materials</link> were <link=fixmask>sourced</link> through a <link=fixmask>cooperation</link>
+    <link=fixmask>agreement</link> with <link=mask>Northwood Tech</link>, <link=fixmask>operating</link>
+    under a <link=fixmask>commercial</link> <link=fixmask>front</link> <link=fixmask>based</link>
+    in <link=mask>Veyra</link>. \n\n<link=fixmask>Logistical</link> <link=fixmask>transfers</link>
+    were <link=fixmask>conducted</link> <link=fixmask>via</link> <link=fuzzy_3>smuggling</link>
+    <link=fixmask>channels</link> to <link=fixmask>avoid</link> <link=fixmask>regulatory</link>
+    <link=fixmask>attention</link>, with <link=fixmask>shipment</link> <link=fixmask>documentation</link>
+    <link=fixmask>dated</link> <link=mask>March 10</link>."
+  expectedMaskCount: 10
+  fuzzyEntries:
+  - linkID: fuzzy_1
+    options:
+    - finalized
+    - finalizes
+    - will finalize
+  - linkID: fuzzy_2
+    options:
+    - Experimental mix
+    - Type-5 compound
+    - Common material
+  - linkID: fuzzy_3
+    options:
+    - informal transport
+    - smuggling
+    - Official transport
